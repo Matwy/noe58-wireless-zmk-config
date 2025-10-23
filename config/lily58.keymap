@@ -10,7 +10,7 @@
 #include <behaviors/unicode.dtsi>
 
 &uc {
-    input-mode = <UC_WINC>;
+    default-mode = <UC_MODE_WIN_COMPOSE>;
 };
 
 / {
